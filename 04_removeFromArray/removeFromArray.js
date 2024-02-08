@@ -1,6 +1,5 @@
 const removeFromArray = function(array, ...varsToRemove) {
     const args = Array.from(varsToRemove);
-    let filteredArray = [];
 
     for(let i = array.length - 1; i >=0; i--) {
 
